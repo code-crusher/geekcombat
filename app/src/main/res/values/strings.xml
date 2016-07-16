@@ -52,5 +52,6 @@
 
     <string name="id_fmt">User ID: %s</string>
     <string name="email_fmt">Email: %s</string>
+    <string name="default_web_client_id">AIzaSyDb9bnpUdLs_bB8_0CSzsHW_zFqVS_HJ98</string>
 
 </resources>
