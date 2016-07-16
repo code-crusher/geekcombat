@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import github.vatsal.geekcombat.R;
 
 /**
@@ -15,6 +18,7 @@ import github.vatsal.geekcombat.R;
 public class EventActivity extends BaseActivity {
 
     RecyclerView recyclerViewNotiList;
+    private DatabaseReference mDatabase;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -26,8 +30,7 @@ public class EventActivity extends BaseActivity {
     }
 
     private void init() {
-
         recyclerViewNotiList = (RecyclerView) findViewById(R.id.event_list);
-
+        mDatabase = FirebaseDatabase.getInstance().getReference();
     }
 }
