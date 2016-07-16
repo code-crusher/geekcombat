@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "431122295230",
+    "firebase_url": "https://geekcombat-421a1.firebaseio.com",
+    "project_id": "geekcombat-421a1",
+    "storage_bucket": "geekcombat-421a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431122295230:android:8cf810f699a115b3",
+        "android_client_info": {
+          "package_name": "github.vatsal.geekcombat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431122295230-74bs0uj92f6amhtnpvnq2cncdvdmklr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "github.vatsal.geekcombat",
+            "certificate_hash": "679071AA67700EEC9745DC86E580E4D9E4C88BF0"
+          }
+        },
+        {
+          "client_id": "431122295230-5gugta7dhirln1mckvd6vj68ka48nqbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "github.vatsal.geekcombat",
+            "certificate_hash": "BBB586C41DE149317B9CAF48267E794AA6681238"
+          }
+        },
+        {
+          "client_id": "431122295230-5l0gnuk7d8bsmlr94r7qudldakq9ilc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq9Fnct_oWm5xoLPt48wBxM-Qyn51jh_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431122295230-5l0gnuk7d8bsmlr94r7qudldakq9ilc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -82,7 +82,7 @@ public class GoogleSignInActivity extends BaseActivity implements
         // [START config_signin]
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("431122295230-74bs0uj92f6amhtnpvnq2cncdvdmklr5.apps.googleusercontent.com")
+                .requestIdToken("431122295230-5l0gnuk7d8bsmlr94r7qudldakq9ilc4.apps.googleusercontent.com")
                 .requestEmail()
                 .build();
         // [END config_signin]
